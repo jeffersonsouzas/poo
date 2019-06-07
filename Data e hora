@@ -1,0 +1,15 @@
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+
+localDate hoje = localDate.now(); //Data atual
+DateTimeFormatter formatoBrasil = DateTimeFormatter.ofPattern("dd/MM/yyyy"); //Converter para o formato Brasileiro
+System.out.println(hoje.format(formatoBrasil));
+
+LocalDate dataProva = LocalDate.of(2019,6,26);
+System.out.println("Dia: "+ dataProva.getDayOfMonth());
+System.out.println("Mês: "+ dataProva.getMonthValue());
+System.out.println("Ano: "+ dataProva.getDayOfYear());
+
+LocalDate amanha = LocalDte.parse("2019-01-01");
+System.out.println(amanha);
+System.out.println(amanha.getYear());
